@@ -54,7 +54,7 @@ const Information = () => {
       </div>
       <div className='h-full row-[1/3] col-[2] bg-white shadow-md rounded-xl'>
         <h1 className='p-4 font-bold'>NOTIFICATION</h1>
-        <div className='flex gap-x-6 ms-4'>
+        <div className='flex gap-x-10 ms-7'>
           <div className='flex flex-col gap-y-10'>
             <h5>2 hrs</h5>
             <h5>2 hrs</h5>
@@ -70,7 +70,7 @@ const Information = () => {
               <p className='text-sm text-gray-600'>
                 Harry Handoko - Contact|MYCRM{" "}
               </p>
-              <div className='absolute top-0 -left-8 w-3 h-3 bg-[#17A9E2] rounded-full'></div>
+              <div className='absolute top-0 -left-12 w-3 h-3 bg-[#17A9E2] rounded-full'></div>
             </div>
             <div className='relative'>
               <h5 className='font-semibold'>
@@ -79,7 +79,7 @@ const Information = () => {
               <p className='text-sm text-gray-600'>
                 Harry Handoko - Application|MYCRM{" "}
               </p>
-              <div className='absolute top-2 -left-8 w-3 h-3 bg-[#646567] rounded-full'></div>
+              <div className='absolute top-2 -left-12 w-3 h-3 bg-[#646567] rounded-full'></div>
             </div>
             <div className='relative'>
               <h5 className='font-semibold'>
@@ -88,7 +88,7 @@ const Information = () => {
               <p className='text-sm text-gray-600'>
                 Harry Handoko - Application|MYCRM{" "}
               </p>
-              <div className='absolute top-2 -left-8 w-3 h-3 bg-[#17A9E2] rounded-full'></div>
+              <div className='absolute top-2 -left-12 w-3 h-3 bg-[#17A9E2] rounded-full'></div>
             </div>
             <div className='relative'>
               <h5 className='font-semibold'>
@@ -97,7 +97,7 @@ const Information = () => {
               <p className='text-sm text-gray-600'>
                 Harry Handoko - Contact|MYCRM{" "}
               </p>
-              <div className='absolute top-2 -left-8 w-3 h-3 bg-[#646567] rounded-full'></div>
+              <div className='absolute top-2 -left-12 w-3 h-3 bg-[#646567] rounded-full'></div>
             </div>
           </div>
         </div>
