@@ -6,7 +6,7 @@ const UploadDokumen = () => {
   return (
     <>
       <StepEditProcess
-        widthStepProcess={"900px"}
+        widthStepProcess={"950px"}
         widthEndStepProcess={"100%"}
       />
       <EditNavigasi

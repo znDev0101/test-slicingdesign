@@ -22,7 +22,7 @@ const StepEditProcess = ({
   const location = useLocation();
 
   return (
-    <div className='hidden lg:flex flex-col gap-y-3 bg-white h-[150px] px-10'>
+    <div className='hidden lg:flex flex-col gap-y-3 bg-white h-[150px] px-5'>
       <div className='flex mt-7 mx-8'>
         <div
           className={`h-[.4rem] bg-[#1e5870]`}

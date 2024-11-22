@@ -10,8 +10,8 @@ export const Navbar = () => {
 
   return (
     <header
-      className={`w-full  flex items-center  justify-between px-5 ${
-        location.pathname === "/edit/alamat"
+      className={`w-full  flex items-center justify-between px-5 ${
+        location.pathname !== "/"
           ? "bg-[#37b5e7] lg:bg-white py-4"
           : "bg-white py-3 lg:py-2"
       }   border-b border-gray-400`}
@@ -20,11 +20,9 @@ export const Navbar = () => {
         className='hidden lg:block font-semibold text-2xl text-[#4F5051]
 '
       >
-        {location.pathname === "/edit/alamat"
-          ? "Edit Application"
-          : "Dashboard"}
+        {location.pathname === "/" ? "Edit Application" : "Dashboard"}
       </span>
-      {location.pathname !== "/edit/alamat" && (
+      {location.pathname === "/" && (
         <HiOutlineMenu className='lg:hidden text-[#37b5e7] text-2xl' />
       )}
 
@@ -46,7 +44,7 @@ export const Navbar = () => {
         </div>
         <div className='w-[.10rem] h-10 bg-gray-200'></div>
       </div>
-      {location.pathname !== "/edit/alamat" && (
+      {location.pathname === "/" && (
         <div className='lg:hidden'>
           <img src={profileUser} alt='profile user' />
         </div>

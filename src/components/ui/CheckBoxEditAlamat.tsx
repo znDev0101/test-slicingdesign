@@ -1,6 +1,6 @@
 const CheckBoxEditAlamat = ({ titleCheckBox }: { titleCheckBox: string }) => {
   return (
-    <div className='hidden lg:flex items-center justify-between gap-x-3  mt-5 '>
+    <div className='flex items-center justify-between gap-x-3  mt-5 '>
       <div className='flex items-center gap-x-3'>
         <input
           type='checkbox'

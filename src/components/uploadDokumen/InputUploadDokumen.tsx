@@ -1,4 +1,7 @@
 import { IoCaretDownOutline } from "react-icons/io5";
+import { FaPlus } from "react-icons/fa6";
+import { MdOutlineRemoveRedEye } from "react-icons/md";
+import { FiTrash } from "react-icons/fi";
 import UploadData from "./UploadData";
 
 const InputUploadDokumen = () => {
@@ -6,18 +9,30 @@ const InputUploadDokumen = () => {
     {
       label: "Fotokopi KTP Pemohon",
       placeholder: "--Upload Fotokopi KTP Pemohon--",
+      iconPlus: FaPlus,
+      iconRemove: FiTrash,
+      iconEye: MdOutlineRemoveRedEye,
     },
     {
       label: "Fotokopi KTP Suami / Istri",
       placeholder: "--Upload Fotokopi KTP Suami / Istri--",
+      iconPlus: FaPlus,
+      iconRemove: FiTrash,
+      iconEye: MdOutlineRemoveRedEye,
     },
     {
       label: "Fotokopi Kartu Keluarga",
       placeholder: "--Upload Fotokopi Kartu Keluarga--",
+      iconPlus: FaPlus,
+      iconRemove: FiTrash,
+      iconEye: MdOutlineRemoveRedEye,
     },
     {
       label: "Fotokopi Akte Nikah/Cerai",
       placeholder: "--Upload Fotokopi Akte Nikah/Cerai--",
+      iconPlus: FaPlus,
+      iconRemove: FiTrash,
+      iconEye: MdOutlineRemoveRedEye,
     },
     {
       label: "Fotokopi NPWP Pemohon",
@@ -77,9 +92,10 @@ const InputUploadDokumen = () => {
       placeholder: "--Upload File Kekurangan 2--",
     },
   ];
+
   return (
     <div className='w-[90%] lg:w-[95%] mx-auto lg:pt-5'>
-      <div className='border border-gray-600'>
+      <div className='border border-[#C1C1C1]'>
         <div className='bg-[#005274] flex items-center gap-x-5 py-4 px-5 text-white'>
           <IoCaretDownOutline className='text-xl' />
           <h1 className='font-semibold text-xl'>Data Pribadi</h1>

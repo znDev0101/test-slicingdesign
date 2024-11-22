@@ -13,7 +13,7 @@ const EditNavigasi = ({
   subTitleForMobile: string;
 }) => {
   return (
-    <div className='w-full px-7 lg:px-10 flex justify-between items-center pt-5'>
+    <div className='w-full bg-[#f6f6f6]  px-7 lg:px-10 flex justify-between items-center pt-5'>
       {/* image navigation for mobile */}
       <img
         src={leftNavigationMb}
@@ -29,7 +29,7 @@ const EditNavigasi = ({
       <div className='flex flex-col items-center text-center'>
         <span className='text-[#878787]  lg:hidden'>{subTitleForMobile}</span>
         <h1 className='text-2xl lg:text-4xl font-semibold'>{titleNavigasi}</h1>
-        <p className='text-gray-500 text-sm mt-3'>{description}</p>
+        <p className='text-gray-500 text-sm mt-2'>{description}</p>
       </div>
       {/* image navigation for mobile */}
       <img

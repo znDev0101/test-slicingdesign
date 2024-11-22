@@ -6,16 +6,12 @@ interface PropsFormInputAlamat {
 }
 const FormInputAlamat = ({ title, titleCheckBox }: PropsFormInputAlamat) => {
   return (
-    <div
-      className={`${
-        title === "Data Domisili" && "hidden lg:block"
-      } w-[95%] relative mx-auto lg:mt-5 border border-gray-300`}
-    >
+    <div className={`w-full relative mx-auto lg:mt-5 border border-gray-300`}>
       <div className='bg-[#005274] py-4'>
         <h1 className='text-white font-semibold ms-5 text-2xl'>{title}</h1>
       </div>
       <div className='w-[95%] mx-auto my-3 relative'>
-        <div className='flex flex-col lg:flex-row justify-between gap-x-10 w-full my-5'>
+        <div className='flex flex-col gap-y-5  lg:flex-row justify-between gap-x-10 w-full my-5'>
           <div className='w-full flex flex-col gap-y-5'>
             <div className='flex flex-col gap-y-2'>
               <label htmlFor='Alamat' className='font-semibold'>
@@ -71,7 +67,7 @@ const FormInputAlamat = ({ title, titleCheckBox }: PropsFormInputAlamat) => {
               </label>
               <select
                 id='provinsi'
-                className='border border-gray-500 rounded-md  px-4 py-1'
+                className='border border-gray-500  rounded-md  px-4 py-1'
               >
                 <option defaultValue={"--Pilih Provinsi--"}>
                   -- Pilih Provinsi --

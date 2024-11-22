@@ -61,7 +61,7 @@ const SideBar = () => {
   ];
 
   return (
-    <div className='w-[280px] min-h-screen bg-white border border-gray-500 hidden lg:flex flex-col gap-y-5'>
+    <div className='w-[300px] min-h-screen bg-white border border-gray-500 hidden lg:flex flex-col gap-y-5'>
       <LogoBanner />
       {/* Navigation sidebar */}
       <nav>
