@@ -1,6 +1,5 @@
 import LogoBanner from "../LogoBanner";
 import { FaChevronDown } from "react-icons/fa6";
-import { FaSortDown } from "react-icons/fa";
 import Home from "../../assets/Home.png";
 import Contact from "../../assets/Contact.png";
 import File from "../../assets/File.png";
