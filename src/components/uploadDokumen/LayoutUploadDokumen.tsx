@@ -1,22 +1,7 @@
 import InputUploadDokumen from "./InputUploadDokumen";
 import saveIcon from "../../assets/save.png";
-import { useEffect, useState } from "react";
 
 const LayoutUploadDokumen = () => {
-  const [titleBtnSubmit, setTitleBtnSubmit] = useState<string>("");
-
-  const checkScreenSize = () => {
-    if (window.innerWidth <= 438) setTitleBtnSubmit("SAVE");
-  };
-
-  useEffect(() => {
-    window.addEventListener("resize", checkScreenSize);
-
-    return () => {
-      window.removeEventListener("resize", checkScreenSize);
-    };
-  }, []);
-
   return (
     <div className='max-w-[67rem] relative mt-8 py-3 mx-auto bg-[#f6f6f6] lg:bg-white rounded-lg'>
       <form>
